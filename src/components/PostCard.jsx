@@ -26,12 +26,13 @@ const PostCard = ({ single }) => {
         <div className="postCardTop">
           <h5>{single.title}</h5>
           <p>{single.body}</p>
-        </div>
-        <div className="postCardBottom">
-          <button onClick={() => vewUserHandler(single.userId)}>
-            Vew User
-          </button>
-        </div>
+        </div>{" "}
+        <button
+          className="button"
+          onClick={() => vewUserHandler(single.userId)}
+        >
+          Vew User
+        </button>
       </div>
     </>
   );

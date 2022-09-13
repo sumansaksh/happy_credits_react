@@ -3,6 +3,7 @@ import {
   POST_SUCCES,
   POST_FAIL,
   CLEAR_ERROR,
+  POST_SEARCH,
 } from "../constants/postConstants";
 
 export const postReducer = (state = { posts: [] }, action) => {
