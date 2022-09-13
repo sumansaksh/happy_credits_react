@@ -1,0 +1,33 @@
+.searchBox > input[type="text"] {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.274);
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 1vmax 2vmax;
+  width: 50%;
+  outline: none;
+  font: 300 1.1vmax cursive;
+  box-sizing: border-box;
+  height: 8%;
+}
+
+.searchBox > input[type="submit"] {
+  height: 8%;
+  border-radius: 3%;
+  background-color: tomato;
+  border: none;
+  padding: 1vmax;
+  width: 10%;
+  font: 300 1.1vmax "Roboto";
+  cursor: pointer;
+  color: white;
+  transition: all 0.5s;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2vmax 5vmax;
+  justify-content: space-evenly;
+  min-height: 30vh;
+}
